@@ -7,6 +7,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
+  flex-wrap: wrap;
   
 
 }
@@ -23,12 +24,21 @@ body {
 }
 
 .c{
+
   background-color:mediumorchid;
   min-height:20vh;
   max-width: 20vh;
+
 }
 
 .d{
+  background-color:mediumorchid;
+  min-height:20vh;
+  max-width: 20vh;
+ 
+}
+
+.e{
   background-color:mediumorchid;
   min-height:20vh;
   max-width: 20vh;
