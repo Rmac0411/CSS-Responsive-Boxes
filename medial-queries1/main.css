@@ -1,3 +1,45 @@
 body {
   background: blanchedalmond;
 }
+
+
+.container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+.a{
+  background-color: pink;
+  min-height: 20vh;
+  flex-grow:2;
+}
+
+.b{
+  background-color: palevioletred;
+  min-height:60vh;
+  flex-grow: 5;
+}
+
+.c{
+  min-height: 20vh;
+  flex-grow: 1;
+  background-color:darksalmon;
+}
+
+@media(min-width: 750px){
+  .container{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a{
+    width: 100%;
+  }
+
+  .b{
+    max-width: 80%;
+  }
+}
