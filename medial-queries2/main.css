@@ -23,23 +23,9 @@ body {
  
 }
 
-.c{
-
+.c ,.d ,.e{ 
+  display: flex;
   background-color:mediumorchid;
-  min-height:20vh;
-  max-width: 20vh;
-
-}
-
-.d{
-  background-color:mediumorchid;
-  min-height:20vh;
-  max-width: 20vh;
- 
-}
-
-.e{
-  background-color:mediumorchid;
-  min-height:20vh;
-  max-width: 20vh;
+  flex: 1 auto;
+  flex-wrap: wrap;
 }
